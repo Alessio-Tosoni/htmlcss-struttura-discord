@@ -12,6 +12,8 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+/* inizio header */
 .head{
     background-color: #ADD8E6;
     width: 100%;
@@ -69,7 +71,9 @@ body{
     margin: auto;
     border: 2px dashed black ;
 }
+/* fine header */
 
+/* inizio body */
 .body-container{
     width: 100%;
     margin: auto;
@@ -121,7 +125,9 @@ body{
     border: 2px dashed black;
     background-color: #228B22;
 }
+/* fine body */
 
+/* inizio foooter */
 footer{background-color: #23272A;
 }
 
@@ -179,6 +185,6 @@ footer{background-color: #23272A;
     
     
 }
-
+/* fine footer */
 
 
