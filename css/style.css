@@ -8,6 +8,13 @@
     width: 90%;
     margin: 0 auto;
 }
+.head{
+    background-color: #ADD8E6;
+    width: 100%;
+    padding:10px 0 1px 0;
+    
+    
+}
 
 .info-flex{
     width: 60%;
@@ -18,13 +25,6 @@
     align-items: center;
 }
 
-.head{
-    background-color: #ADD8E6;
-    width: 100%;
-    height: 705px;
-    padding: 20px;
-    
-}
  
 .info{
     margin: auto;
@@ -47,11 +47,11 @@
     text-align: right;
     width: 25%;}
    
- .centrato{
+ .centrale-flex{
     background-color: #00008B;
     height: 600px;
-    margin:20px 0;
     width: 100%;
+    margin: 10px 0 ;
     display: flex;
     justify-content: center;
 }
@@ -65,7 +65,7 @@
 }
 
 .body-container{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -77,30 +77,101 @@
     align-items: center;
 }
 
-.maggiore-bianca{
+.maggiore{
     background-color: #1E90FF;
     height: 500px;
-    width:45%;
+    width:30%;
     border: 2px dashed black;
 }
 
-.minore-bianca{
+.minore{
     background-color: #FFC0CB;
     height: 500px;
-    width: 35%;
+    width: 20%;
     border: 2px dashed black;
 }
 
 .grigia-flex{
     background-color: #D3D3D3;
     margin: 50px auto;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.minore-grigia{
-    width: 35%;
+#centro-grigia-flex{
+    background-color: #FFC0CB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#unico{
+    height: 700px;
+    width: 51%;
+    margin: auto;
+    border: 2px dashed black;
+    background-color: #228B22;
+}
+
+footer{background-color: #23272A;
+}
+
+.multi-flex{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#singolo{
     height: 500px;
+    width: 15%;
+    background-color: #F08080;
     border: 2px dashed black;
 }
+
+
+#multiplo-flex{
+    width: 37%;
+    height: 500px;
+    display: flex;
+   
+}
+
+.colonne{
+    width: 25%;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+#flex-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-footer{
+    background-color: white;
+    width: 50%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.bottom{
+    border: 2px dashed black;
+    background-color: #FFB6C1;
+    font-size: 25px;
+    padding: 5px;
+    
+    
+}
+
+
+
